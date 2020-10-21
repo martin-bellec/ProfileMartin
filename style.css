@@ -1,0 +1,130 @@
+body {background-color: rgba(138,198,209,0.2);
+	font-size: 20px}
+h1 {font-family: 'Kanit', sans-serif;
+	font-weight: lighter;
+	font-size: 56px;
+	letter-spacing:4px;
+	color:rgb(2,5,90);
+}
+p{ font-family: 'Kanit', sans-serif;
+	font-size:20px;
+	letter-spacing:2px;
+	margin-bottom: 20px;
+} 
+a{ text-decoration: none;
+	color: black; 
+	font-family: 'Kanit', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	font-size:15px;
+}
+a:hover{color: rgb(2,5,90);
+		background-color:rgba(138,198,209,0.2);
+		transition: 0.7s;
+		font-size: 20px;
+}
+h2{ color:rgb(2,5,90);
+	font-family: 'Kanit', sans-serif;
+	font-weight: ;
+	font-size:40px;
+}
+audio{width: 300px;
+	  height:50px;
+}
+/* I don't understand why but my audio file is not playing when online, i think it's because the mp3 file is only available on my computer but i did not have time to find how to make it available for everyone*/
+
+
+
+.img-circle{box-shadow: 0px 0px 4px grey;
+			border-image: 0.3px black;
+			border-radius:50%;}
+.card-light{margin:10px auto;
+			margin-bottom: 20px;
+			padding:30px;
+			border-radius:20px;
+		    border:2px hidden rgba(240,240,240,1);
+		    box-shadow: 0px 0px 6px rgba(170,170,170,0.4);
+			width: 700px;
+			background-color: rgb(255,255,255);}
+.text-jstfy{text-align: justify;}
+.text-center{text-align:center; }
+.card-left	{float: left ;}
+.card-circle{margin:20px auto;
+			padding:20px;
+			border-radius:50%;
+		    border:2px hidden rgba(240,240,240,1);
+		    box-shadow: 0px 0px 6px rgba(170,170,170,0.4);
+			width: 180px;
+			background-color: rgb(255,255,255);}
+.btn-blue{background-color:rgb(2,5,90);
+          color: white;
+   		  padding: 15px 20px;
+    	  border-radius: 4px;
+		  margin-top: 20px;
+		  margin-bottom: 50px;}
+.social-link{color: rgba(138,198,240,0.6);}
+.list-inline{padding-left: 0px;
+			list-style: none;
+		}
+.list-inline i{padding: 5px;}
+.container{width: 700px;
+		   margin: 40px auto;}
+
+
+
+
+
+
+
+#intro-space p{margin-bottom: 50px;}
+#intro-space{padding-bottom: 50px;}
+#music-card{color: rgb(138,198,209);
+			font-size: 20px;
+			font-weight: bold;
+			background-image: }
+#btn-secret{background-color:rgb(231, 243, 245);
+   			color: rgb(231, 243, 245);
+			margin-bottom:5px;
+			margin-top:0px;
+			width: 30px
+			height 4px;
+	}
+#btn-secret a:hover{background-color: rgb(2,5,90);
+					color: white;}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .card-light{width: 700px;}
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .card-light{width: 500px;}
+  #music-card{ margin:10px auto;
+			margin-bottom: 20px;
+			padding:30px;
+			border-radius:20px;
+		    border:2px hidden rgba(240,240,240,1);
+		    box-shadow: 0px 0px 6px rgba(170,170,170,0.4);
+			width: 500px;
+			background-color: rgb(255,255,255); }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .card-light{width: 300px;}
+  #music-card{ margin:5px auto;
+			margin-bottom: 5px;
+			padding:30px;
+			border-radius:20px;
+		    border:2px hidden rgba(240,240,240,1);
+		    box-shadow: 0px 0px 6px rgba(170,170,170,0.4);
+			width: 300px;
+			background-color: rgb(255,255,255); }
+}
+}
